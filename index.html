@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assessment-1</title>
+    <link rel="icon" href="./as.jpg">
+    <link rel="stylesheet" href="./index.css">
+    <!-- internal css -->
+    <style>
+        body{
+            background-image: url("image2.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: red; font-weight: bold;">This is First CSS Assignment</h1>
+    <hr>
+    
+    <div style="font-size: 25px; color: red; font-weight: 700; font-style: oblique;">What is CSS?</div>
+    
+    <ol style="color: maroon;">
+        <li>CSS stands for Cascading Style Sheet.</li>
+        <br>
+        <li>CSS describes how HTML elements are to be displayed on the screen,paper or in other media.</li>
+        <br>
+        <li><span style="text-decoration: line-through; font-weight: bold;">Css is not necessary</span> <span style="background-color: yellow; font-weight: bold;">CSS saves a lots of work</span>.It can control the layout of multiple webpages all at once.</li>
+        <br>
+        <li><span style="font-style: italic; text-decoration: underline;">External stylesheets are stored in CSS files.</span></li>
+        <br>
+    </ol>
+
+    <div style="font-size: 25px; font-weight: 700; font-style: oblique; color: red;">CSS can be added to HTML into 3 ways:</div>
+    <ul style="color: maroon; letter-spacing: 4px;">
+        <li>Inline - By using the style attribute inside HTML elements1. </li>
+        <li>Internal - By using the style element in the head section.</li>
+        <li>External - By using link element to link to an external CSS files.</li>
+        <li>The most common way to add CSS , is to keep the styles in th external CSS files. However , <span style="background-color: yellow; font-weight: bold;">in this tutorial we will use inline and internal CSS styles ,</span> because it is easier to demonstrate , and easier for you to try it yourself.</li>
+    </ul>
+
+    <p style="color: brown">
+        When comparing CSS CLASS vs ID , the difference is that CSS CLASS can applies a styles to multiple elements. On the other hand , 
+        CSS ID can applies a style to one unique element . ID is also special in that you can use a special URL to link directly to an
+        elemenet and it's used by Javascript. 
+    </p>
+
+    <p style="color: brown;">
+        In CSS , selector are used to target a specific element or range of elements on the webpage . Once an element has been targeted , a style or a set of styles can be applied to the elements.
+    </p>
+
+    <p style="color: brown;">
+        There is a wide range of selectors available . Two of the most commonly used selectors are CLASS and ID . Both are used to target elements to which a style to be applied.
+    </p>
+    
+    <a href="https://www.prepbytes.com/" id="anchor" target="_blank"><span style="background-color: yellow; font-style: italic; color: red;">
+        prepbytes Home
+    </span></a>
+    <br>
+    <br>
+    <a href="./index1.html" style="background-color: yellow; font-style: italic;" id="anchor">Proceed</a></button>
+    <br><br>
+    <a href="https://www.prepbytes.com/" target="_blank"><center><img src="./as.jpg" alt="No Image" width="200px" height="200px"></center></a>
+    <br>
+</body>
+</html>
